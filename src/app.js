@@ -55,7 +55,6 @@ function consultarAPI(ciudad, pais){
                 imprimirAlerta('La ciudad no existe');
                 return
             } 
-
             //Imprimir la respuesta en el html
             mostrarClima(datos);
         })
